@@ -1,0 +1,3 @@
+# Added automatically by Gridhost panel Wednesday 22nd of November 2017 06:09:00 PM
+Options +Indexes
+AddType x-httpd-php73 .php

@@ -1,0 +1,45 @@
+<?php
+
+if ( ! defined( 'ABSPATH' ) ) exit;
+
+define( 'SMUZSF_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
+
+define( 'SMUZSF_PLUGIN_URL', plugins_url( '',plugin_basename( __FILE__ ) ) );
+
+define( 'SMUZSF_PLUGIN_DIR_NAME', dirname( plugin_basename( __FILE__ ) ) );
+
+define( 'SMUZSF_PLUGIN_INCLUDE_ADMIN_DIRECTORY_NAME', 'admin/includes' );
+
+define( 'SMUZSF_PLUGIN_INCLUDE_PUBLIC_DIRECTORY_NAME', 'public/includes' );
+
+define( 'SMUZSF_PLUGIN_VIEW_DIRECTORY_NAME', 'views' );
+
+define( 'SMUZSF_PLUGIN_CSS_DIRECTORY_NAME', 'css' );
+
+define( 'SMUZSF_PLUGIN_JS_DIRECTORY_NAME', 'js' );
+
+define( 'SMUZSF_PLUGIN_ADMIN_DIRECTORY', SMUZSF_PLUGIN_PATH . 'admin' . DIRECTORY_SEPARATOR );
+
+define( 'SMUZSF_PLUGIN_PUBLIC_DIRECTORY', SMUZSF_PLUGIN_PATH . 'public' . DIRECTORY_SEPARATOR );
+
+define( 'SMUZSF_PLUGIN_INCLUDE_ADMIN_DIRECTORY', SMUZSF_PLUGIN_PATH .
+									  	SMUZSF_PLUGIN_INCLUDE_ADMIN_DIRECTORY_NAME
+							 		  	. DIRECTORY_SEPARATOR );
+
+define( 'SMUZSF_PLUGIN_VIEW_DIRECTORY', SMUZSF_PLUGIN_PATH .
+									  	SMUZSF_PLUGIN_VIEW_DIRECTORY_NAME
+							 		  	. DIRECTORY_SEPARATOR );
+
+define( 'SMUZSF_PLUGIN_CSS_DIRECTORY', SMUZSF_PLUGIN_PATH .
+									  	SMUZSF_PLUGIN_CSS_DIRECTORY_NAME
+							 		  	. DIRECTORY_SEPARATOR );
+
+define( 'SMUZSF_PLUGIN_JS_DIRECTORY', SMUZSF_PLUGIN_PATH .
+									  	SMUZSF_PLUGIN_JS_DIRECTORY_NAME
+							 		  	. DIRECTORY_SEPARATOR );
+
+define( 'SMUZSF_PLUGIN_MAIN_FILE', SMUZSF_PLUGIN_PATH . 'SMUZSF.php' );
+
+define(  'SMUZSF_SHORTCODE', 'socialfeed' );
+
+define( 'SMUZSF_PLUGIN_VERSION', '1.0' );
